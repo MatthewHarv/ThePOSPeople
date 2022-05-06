@@ -1,0 +1,53 @@
+@import "./variables.module";
+.headerlogo {
+  width: 216px;
+  margin-left: 4px;
+}
+
+.navtext {
+  font-family: ProxReg;
+  color: black;
+}
+
+.navtext:hover {
+  color: silver;
+}
+.navcss {
+  margin-left: 100px;
+}
+
+.toggleborder {
+  border: 1px solid black !important;
+  margin-right: 20px;
+}
+
+.navitem {
+  padding-left: 0.6rem;
+}
+
+.navtext {
+  color: black;
+  font-weight: 800;
+}
+.navtext:hover {
+  color: silver !important;
+}
+
+.navBarContainer {
+  background-color: white !important;
+  border-bottom: 1px solid black;
+  letter-spacing: 0.1rem;
+}
+.cover {
+  width: 100%;
+  min-height: calc(100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  filter: brightness(70%);
+}
+
+.active {
+  color: red !important;
+}

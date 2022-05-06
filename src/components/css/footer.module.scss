@@ -1,0 +1,62 @@
+@import "./variables.module";
+.fblogo {
+  font-size: $titlesize;
+  color: #3b5998;
+}
+
+.twlogo {
+  font-size: $titlesize;
+  color: #00acee;
+}
+
+.inlogo {
+  font-size: $titlesize;
+  color: #3f729b;
+}
+
+.lilogo {
+  font-size: $titlesize;
+  color: #0e76a8;
+}
+
+.socialmedia {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.footerlogo {
+  width: 92px;
+  padding-left: 10px;
+}
+
+.hmslogo {
+  width: 130px;
+}
+
+.thefooter {
+  /* background: rgb(128, 194, 65);  */
+  background: rgb(255, 255, 255);
+  color: black;
+  border-top: 1px solid black;
+}
+.textbold {
+  font-family: ProxBold;
+  font-size: $textsize;
+}
+.text {
+  font-family: ProxReg;
+}
+
+.texttitle {
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+}
+
+.sociallogo {
+  margin-top: 50px;
+}
+
+.thefooter {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}

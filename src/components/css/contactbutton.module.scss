@@ -1,0 +1,13 @@
+@import "./variables.module";
+
+.contactButton {
+  color: black;
+  background-color: $greenbrand;
+  border: 1px solid black;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contactButton:hover {
+  background-color: silver;
+}

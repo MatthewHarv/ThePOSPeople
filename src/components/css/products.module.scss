@@ -1,0 +1,84 @@
+@import "./variables.module";
+.header {
+  margin-top: 110px;
+  margin-bottom: 20px;
+  font-family: ProxReg;
+  font-weight: 500;
+  padding-top: 30px;
+  text-align: center;
+  font-size: $titlesize;
+}
+
+.description {
+  font-family: ProxReg;
+  font-size: $textsize;
+  color: black;
+}
+
+.subheader {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: ProxBold;
+  padding-top: 30px;
+  text-align: center;
+  font-size: $titleinnersize;
+  font-weight: 500;
+}
+.disclaimer{
+  text-align: center;
+  font-family: ProxReg;
+    font-size: $textsize;
+}
+
+.background {
+  margin-top: -110px;
+  background-color: rgba(185, 185, 185, 0.253);
+  padding-bottom: 10px;
+}
+.productcontainer {
+  width: 70%;
+  margin: auto;
+}
+.poslogo {
+  width: 230px;
+
+ 
+  margin-top: 30px;
+}
+.logo {
+  width: 200px;
+  margin-top: 30px;
+
+}
+.logorow {
+  margin: auto;
+}
+
+@media (min-width: 1600px) {
+  .logorow {
+    width: 100%;
+  }
+}
+.contact {
+  font-family: ProxReg;
+  margin-top: 50px;
+  text-align: center;
+  font-size: $textsize;
+}
+@media (max-width: 768px) {
+  .background {
+    width: 100%;
+  }
+}
+.description {
+  font-family: ProxReg;
+  padding-top: 1rem;
+}
+
+.productcover {
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,117 @@
+@import "./variables.module";
+.tvdownload {
+  width: 250px;
+  margin-bottom: 1rem;
+  filter: brightness(90%);
+}
+
+.supportlogo {
+  margin-top: 15px;
+  width: 90px;
+  margin-bottom: 0px;
+}
+
+.ticktext {
+  font-size: $textsize;
+  padding-left: 15px;
+}
+
+.whatwedologo {
+  margin-top: 45px;
+  font-size: 50px;
+}
+
+.whatwedopic {
+  margin-top: -23px;
+  padding: 0px;
+}
+.tickContainer {
+  margin-top: 4rem;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.supportcontent {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  text-shadow: 1px 1px #000000;
+}
+
+.psupport {
+  font-family: ProxReg;
+  font-size: $textsize;
+  font-family: Helvetica, sans-serif;
+  padding-bottom: 1rem;
+}
+
+.supporthead {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: $titleinnersize;
+  font-family: ProxReg;
+}
+
+.install {
+  color: rgb(240, 12, 12);
+  font-size: $textsize;
+}
+
+.train {
+  color: rgb(248, 185, 12);
+  font-size: $textsize;
+}
+
+.repair {
+  color: rgb(180, 39, 180);
+  font-size: $textsize;
+}
+
+.parallax {
+  background-image: url("../../images/Sites/darkbar.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1rem;
+}
+
+.featureSection {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  width: 70%;
+}
+
+.productSummary {
+  margin-top: 4rem;
+}
+
+.tick {
+  color: $greenbrand;
+}
+
+.ticktext {
+  font-family: ProxReg;
+  padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .featureSection {
+    width: 100%;
+  }
+  .tickContainer {
+    width: 100%;
+  }
+}
+.venutitle {
+  font-family: ProxReg;
+  font-size: $textsize;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+.venutext {
+  font-family: ProxReg;
+  font-size: $textsize;
+}

@@ -1,0 +1,46 @@
+@import "./variables.module";
+.siteimage {
+  height: 40vh;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  min-height: 500px;
+
+}
+
+.imageContainer {
+ 
+  overflow: hidden;
+  margin: auto;
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: ProxReg;
+  font-weight: 500;
+  padding-top: 30px;
+  font-size: $titlesize;
+}
+
+.description {
+  font-size: $textsize;
+  width: 80%;
+  margin: auto;
+  font-family: ProxReg;
+  line-height: 1.3em;
+}
+
+.enddescription {
+  padding-top: 80px;
+  font-size: $textsize;
+  width: 80%;
+  margin: auto;
+  font-family: ProxReg;
+}
+
+.siteContainer {
+  margin-top: 4rem;
+  background-color: rgba(185, 185, 185, 0.253);
+  padding-bottom: 10px;
+}

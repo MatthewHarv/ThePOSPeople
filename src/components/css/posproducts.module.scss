@@ -1,0 +1,50 @@
+@import "./variables.module";
+
+.title {
+  font-family: ProxReg;
+
+  font-size: $titleinnersize;
+}
+.logo {
+  width: 180px;
+}
+.logoProducts {
+  max-width: 500px;
+}
+.textp {
+  font-family: Helvetica, sans-serif;
+  padding-top: 15px;
+  width: 70%;
+  margin: auto;
+  color: rgb(59, 59, 59);
+  font-size: $textsize;
+}
+
+@media (max-width: 768px) {
+  .textp {
+    width: 100% !important;
+  }
+  .logo {
+    margin-top: 2rem;
+  }
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.productContainer {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.textp {
+  font-family: ProxReg;
+
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}

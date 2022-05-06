@@ -1,0 +1,129 @@
+@import "./variables.module";
+
+.header {
+  color: black;
+  font-family: ProxReg;
+}
+
+.outContact {
+  min-height: 100vh;
+  padding: 30px;
+  background: url("../../images/Sites/auckland.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactform {
+  background: rgb(181, 235, 232);
+  color: black;
+  padding: 20px;
+  border: 1px solid black;
+  min-height: 50vh;
+  margin-top: 150px;
+}
+
+.input {
+  border: 1px solid black;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.inputButton {
+  background-color: white;
+  border: 1px black solid;
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+
+.inputButton:hover {
+  background-color: lightgrey;
+}
+
+.hidden {
+  display: none;
+}
+
+.infoTitle {
+  padding-top: 1rem;
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.infoDescription {
+  padding-top: 1rem;
+  font-family: ProxReg;
+  font-size: $textsize;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.infoContactTitle {
+  font-family: ProxReg;
+  font-size: $textsize;
+  text-align: center;
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+
+.infoContact {
+  font-family: ProxReg;
+  font-size: $textsize;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.contactTitle {
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  font-weight: 600;
+  margin: auto;
+}
+.formButton {
+  text-align: center;
+  font-family: ProxReg;
+  font-size: $textsize;
+}
+.contactDetail {
+  font-family: ProxReg;
+  font-size: $textsize;
+  text-align: center;
+}
+
+label {
+  width: 100%;
+  font-family: ProxReg;
+  font-size: $textsize;
+}
+@media (max-width: 576px) {
+  .contactform {
+    margin-top: 5rem;
+  }
+  .outContact {
+    padding: 5px;
+  }
+  .infoDescription {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .infoContact {
+    margin-bottom: 0.5rem;
+  }
+  .contactContainer {
+    margin-bottom: 2rem;
+  }
+  .formContainer {
+    text-align: center;
+  }
+}

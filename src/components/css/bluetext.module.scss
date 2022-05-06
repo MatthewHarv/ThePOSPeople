@@ -1,0 +1,72 @@
+@import "./variables.module";
+.header {
+  font-style: bold;
+  color: white;
+}
+
+.featureSummary {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+  background-color: rgb(181, 235, 232);
+  font-family: ProxReg;
+}
+.titleInner {
+  font-size: $titlesize;
+  padding-bottom: 30px;
+  font-size: $titlesize;
+ 
+    font-family: ProxBold, sans-serif;
+}
+
+.titleInner.is-visible {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.headerInner {
+  font-size: $titleinnersize;
+  padding-bottom: 1.5rem;
+}
+.textInner {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media (max-width: 768px) {
+  .textp {
+    width: 100% !important;
+  }
+}
+.textp {
+  font-size: $textsize;
+  padding-top: 15px;
+  width: 70%;
+  margin: auto;
+}
+/*
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+*/

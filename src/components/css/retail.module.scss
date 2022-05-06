@@ -1,0 +1,45 @@
+@import "./variables.module";
+.header {
+  margin-top: 110px;
+  margin-bottom: 20px;
+  font-family: ProxReg;
+  font-weight: 500;
+  padding-top: 30px;
+  font-size: $titlesize;
+}
+
+.description {
+  padding-top: 4rem;
+  font-size: $textsize;
+  width: 70%;
+  margin: auto;
+  font-family: ProxReg;
+  line-height: 1.3em;
+}
+
+.enddescription {
+  margin-top: 80px !important;
+  font-size: $textsize;
+  width: 80%;
+  margin: auto;
+  font-family: ProxReg;
+}
+
+.retailimg {
+  height: 60vh;
+  border: 1px solid black;
+}
+.retailcontainer {
+  margin-top: -24px;
+  background-color: rgba(185, 185, 185, 0.253);
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .enddescription {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+}

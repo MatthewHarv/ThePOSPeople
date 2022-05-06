@@ -1,0 +1,49 @@
+@import "./variables.module";
+
+.frontimage {
+  filter: grayscale(100%);
+  text-align: center;
+  margin: auto;
+}
+
+.frontimage:hover {
+  filter: grayscale(0%);
+}
+
+.textp {
+  font-family: Helvetica, sans-serif;
+  padding-top: 15px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+  color: rgb(102, 102, 102);
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .textp {
+    width: 100% !important;
+  }
+}
+
+.container {
+  margin-bottom: 120px;
+}
+
+.customerImage {
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .frontimage {
+    filter: grayscale(0%);
+  }
+}

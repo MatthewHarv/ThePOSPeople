@@ -1,0 +1,36 @@
+@import "./variables.module";
+.header {
+  font-size: $titleinnersize;
+}
+
+.aboutimg {
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.aboutHeadImg {
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  padding-top: 2rem;
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+  padding-bottom: 2rem;
+}
+
+.description {
+  padding-top: 1rem;
+  font-family: ProxReg;
+  font-size: $textsize;
+  padding-bottom: 1rem;
+  width: 70%;
+  margin: auto;
+}
+
+.aboutContainer {
+  margin-bottom: 3rem;
+}

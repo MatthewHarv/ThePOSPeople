@@ -1,0 +1,227 @@
+@import "./variables.module";
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 100vh;
+  background-color: lightblue;
+}
+
+.nav {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (min-width: 992px) {
+  .listContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.listContainer {
+  margin-top: 20px;
+}
+
+.welcomeHeader {
+  font-family: ProxReg;
+}
+
+.testLink {
+  color: black;
+  text-decoration: none;
+}
+.testLink:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* The Modal (background) */
+.modal {
+  margin-top: 50px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 5vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modaloff {
+  display: none;
+}
+
+.modalcontent {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 1080px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  text-align: center;
+  background-color: $greenbrand;
+  font-family: ProxReg;
+}
+
+@media (max-width: 992px) {
+  .modalcontent {
+    width: 100%;
+  }
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modalheader {
+  padding: 4px 16px;
+  background-color: $greenbrand;
+  color: black;
+  text-align: center;
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+}
+
+.modalbody {
+  padding: 10px;
+  background-color: $greenbrand;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.popup {
+  display: block;
+}
+
+.popdown {
+  display: none; /* Hidden by default */
+}
+
+.previewwindow {
+  height: 80vh;
+  width: 100%;
+}
+
+.headerlink {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
+.header {
+  color: black;
+}
+
+.newscover {
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid black;
+}
+.title {
+  padding-top: 3rem;
+  font-family: ProxReg;
+  font-size: $titlesize;
+  padding-bottom: 3rem;
+}
+
+.cover {
+  height: 500px;
+}
+
+.newsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 4rem;
+}
+
+.newsContent {
+  background-color: $lightgrey;
+  padding-bottom: 3rem;
+}
+
+.list {
+  border: 1px solid black;
+
+  max-width: 500px;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.linkHeader {
+  color: black;
+  text-align: center;
+  font-size: $textsize;
+  font-family: ProxReg;
+}
+
+.newsimagePreview {
+  object-fit: contain;
+  text-align: center;
+  position: center center;
+}
+@media (max-width: 480px) {
+  .newsContainer {
+    grid-template-columns: 1fr;
+    padding-bottom: 2rem;
+  }
+  .list {
+    margin-bottom: 3rem;
+  }
+}
+
+.postitle {
+  font-style: italic;
+  font-weight: bold;
+
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+}
+
+.descriptionarray {
+  padding-top: 1rem;
+  font-family: ProxReg;
+  font-size: $textsize;
+  padding-bottom: 1rem;
+}
+
+.link {
+  font-family: ProxReg;
+  font-size: $textsize;
+}
+
+.cardHeader {
+  padding-top: 1rem;
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+  padding-bottom: 1rem;
+}

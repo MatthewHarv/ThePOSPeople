@@ -1,0 +1,189 @@
+@import "./variables.module";
+.intimg {
+  padding-bottom: 50px;
+  height: 400px;
+}
+
+.landingrow {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  width: 80%;
+}
+
+.textcontainer {
+  max-width: 600px;
+}
+.textheader {
+  text-align: center;
+}
+.secondsectionHeader {
+  color: red;
+}
+.topcontainer {
+  background-color: rgb(181, 235, 232);
+  padding-top: 150px;
+
+  padding-bottom: 80px;
+}
+.intohead {
+  color: rgb(0, 41, 19);
+  font-size: $titlesize;
+  padding-bottom: 40px;
+  font-family: ProxBold, sans-serif;
+}
+
+.intobody {
+  font-family: ProxReg, sans-serif;
+  font-size: $textsize;
+  line-height: 24px;
+  color: rgb(58, 73, 83);
+}
+
+@media (max-width: 992px) {
+  .intohead {
+    padding-top: 80px;
+    text-align: center;
+  }
+}
+
+.businessContainer {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.secondheader {
+  padding-top: 80px;
+  font-family: ProxLight;
+  font-size: $titlesize;
+  padding-bottom: 80px;
+}
+
+.twopartbody {
+  font-family: ProxReg;
+  font-size: $textsize;
+}
+
+.twopartheader {
+  font-family: Proxbold;
+  font-size: 1.8rem;
+  padding-bottom: 40px;
+}
+
+.integratecontainer {
+  background-color: rgb(248, 248, 245);
+  padding-bottom: 120px;
+}
+
+.integrateheader {
+  padding-top: 80px;
+  font-family: Proxbold;
+  font-size: $titlesize;
+  color: rgb(58, 73, 83);
+  padding-bottom: 60px;
+}
+
+/************************************* */
+
+.collapsedcat {
+  width: auto;
+  display: inline-block;
+  position: relative;
+}
+
+.collapsedcat button {
+  border: none;
+  padding: 8px 50px;
+  background-color: $greenbrand;
+  color: black;
+  cursor: pointer;
+  width: 280px;
+}
+
+.expandeddcat {
+  width: auto;
+  display: inline-block;
+  position: relative;
+}
+
+.expandeddcat div {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.expandeddcat button {
+  border: none;
+  padding: 8px 50px;
+  background-color: $greenbrand;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 280px;
+}
+
+.expandeddcatoptions {
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  color: silver;
+  white-space: nowrap;
+}
+.expandeddcatoptions:hover {
+  background-color: rgb(248, 248, 245);
+  color: black;
+}
+
+.collapsedcatoptions {
+  visibility: hidden;
+  position: absolute;
+  opacity: 0;
+}
+
+.filterContainer {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cardimage {
+  width: 50%;
+  margin: auto;
+}
+.cardContainer {
+  margin-bottom: 15px;
+  min-height: 200px;
+}
+.cardRow {
+  margin: 50;
+}
+
+.cardTitle {
+  padding-top: 20px;
+  font-family: ProxReg;
+  font-size: $textsize;
+}
+
+.cardDescription {
+  padding-top: 10px;
+  font-family: ProxReg;
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+}
+
+.cardImage{
+  margin-top:10px;
+}
+
+.contact{
+text-align: center;
+  font-family: ProxReg;
+    font-size: $textsize;
+}
+.button{
+  text-align: center;
+}
+.integratecontainer{
+  margin-bottom:100px;
+}

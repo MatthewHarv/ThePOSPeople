@@ -1,0 +1,119 @@
+@import "./variables.module";
+
+.textp {
+  font-family: Helvetica, sans-serif;
+  padding-top: 15px;
+  width: 70%;
+  margin: auto;
+  color: black;
+  font-family: ProxReg;
+  font-size: $textsize;
+}
+
+@media (max-width: 768px) {
+  .textp {
+    width: 100% !important;
+  }
+}
+.intocap {
+  font-size: $titlesize;
+  color: white;
+  position: relative;
+  left: -50%;
+  display: none;
+}
+.outtercap {
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  left: 50%;
+  display: none;
+}
+
+.slidingbackground {
+  background: url("../../images/Logos/imgslider.jpg") repeat-x;
+  height: 150px;
+  width: 12696px;
+  // x width 3
+  animation: slide 50s linear infinite;
+}
+
+.wrapper {
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-5189px, 0, 0);
+    // x width
+  }
+}
+
+.carouselItem {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+.carouselItem:first-of-type {
+  position: relative;
+}
+
+.carouselHeader {
+  font-size: $titlesize;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  /* padding-bottom: 1rem; */
+}
+
+.carouselHeaderEntry {
+  font-size: $titlesize;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  margin-bottom: 20vh;
+}
+.button {
+  color: black;
+  background-color: $greenbrand;
+  border: 1px solid black;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.button:hover {
+  background-color: silver;
+}
+
+.container {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-family: ProxReg;
+  font-size: $titleinnersize;
+}
+@media (max-width: 576px) {
+  .outer {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .carouselHeaderEntry {
+    display: none;
+  }
+}
+
+.intlink{
+  text-decoration: none;
+  color:$greenbrand;
+}
+.intlink:hover{
+  color:lightgrey
+}

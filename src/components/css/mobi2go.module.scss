@@ -1,0 +1,35 @@
+@import "./variables.module";
+.font18 {
+  font-size: $textsize;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.lightblue {
+  color: rgb(55, 155, 189);
+}
+
+.tickcontainer {
+  margin-left: 30%;
+}
+.topspace {
+  margin-top: 80px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.skinny {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 480;
+}

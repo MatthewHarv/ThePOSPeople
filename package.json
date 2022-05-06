@@ -1,0 +1,74 @@
+{
+  "name": "thepospeople",
+  "private": true,
+  "description": "We supply and support Tevalis, Ramsys and IdealPOS Point Of Sale solutions to propel your business into the next level.",
+  "version": "1.0.0",
+  "author": "Matthew Harvey",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@reach/router": "^1.3.4",
+    "auth0-js": "^9.16.2",
+    "bootstrap": "^5.1.0",
+    "classnames": "^2.3.1",
+    "framer-motion": "^4.1.17",
+    "gatsby": "^3.11.1",
+    "gatsby-background-image": "^1.5.3",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-exclude": "^1.0.2",
+    "gatsby-plugin-google-analytics": "^3.11.0",
+    "gatsby-plugin-htaccess": "^1.4.0",
+    "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-manifest": "^3.11.0",
+    "gatsby-plugin-offline": "^4.11.0",
+    "gatsby-plugin-react-helmet": "^4.11.0",
+    "gatsby-plugin-robots-txt": "^1.6.8",
+    "gatsby-plugin-sass": "^4.13.0",
+    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-plugin-sitemap": "^4.7.0",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "gbimage-bridge": "^0.1.4",
+    "intersection-observer": "^0.12.0",
+    "jquery": "^3.6.0",
+    "npm": "^7.20.5",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-cookie": "^4.1.0",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-intersection-observer": "^8.32.0",
+    "react-uuid": "^1.0.2",
+    "sass": "^1.39.0",
+    "typescript": "^4.3.5",
+    "uuidv4": "^6.2.11"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2",
+    "react-hot-loader": "^4.13.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

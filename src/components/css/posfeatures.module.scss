@@ -1,0 +1,102 @@
+@import "./variables.module";
+
+.title {
+  color: black;
+  text-align: center;
+  font-size: $titlesize;
+  padding-top: 2rem;
+  font-family: ProxReg;
+  padding-bottom: 3rem;
+  font-weight: bold;
+}
+
+.leadContainer {
+  background-color: $greenbrand;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  padding-bottom: 3rem;
+}
+
+.cover {
+  height: calc(100vh - 80px);
+}
+.leadtitle {
+  text-align: center;
+  font-size: $titleinnersize;
+  font-family: ProxReg;
+  max-width: 1080px;
+  width: 60%;
+  margin: auto;
+  
+}
+
+.leaddescription {
+  text-align: center;
+  font-size: $textsize;
+  font-family: ProxReg;
+  padding-top: 2rem;
+  width: 60%;
+  margin: auto;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+}
+
+
+
+.featurestitle {
+  margin-top: 6rem;
+  font-size: $titlesize;
+  font-family: ProxReg;
+  text-align: center;
+}
+
+.featureContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.featuretitle {
+  font-family: ProxReg;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: $titlesize;
+  padding-bottom: 1.5rem;
+}
+
+.featuredescription {
+  font-family: ProxReg;
+  text-align: center;
+  font-size: $textsize;
+  padding-bottom: 0.5rem;
+}
+
+.featureimage {
+  height: 400px;
+  background-size: contain;
+  text-align: center;
+}
+
+.features {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact {
+  text-align: center;
+  font-size: $textsize;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 576px) {
+  .featureContainer {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .featureimage {
+    height: 200px;
+  }
+}
