@@ -23,12 +23,7 @@ export default class products extends Component {
         <div className={style.background}>
           <div className={style.productcontainer}>
             <h1 className={style.header}>Products </h1>
-            <p className={style.disclaimer}>
-              These images do not dictate what stock we have on hand or carry at
-              the time, please check with our sales team on
-              sales@thepospeople.co.nz or 09 444 3903&nbsp;&nbsp;&nbsp;0800 767
-              100&nbsp;&nbsp;&nbsp;0800 POS 100
-            </p>
+
             <div className={style.subheader}>Software </div>
             <div className={cx(["text-center"], style.logorow)}>
               <div className={cx(["row"])}>
@@ -66,6 +61,12 @@ export default class products extends Component {
             </div>
 
             <div className={style.subheader}>Hardware</div>
+            <p className={style.disclaimer}>
+              These images do not dictate what stock we have on hand or carry at
+              the time, please check with our sales team on
+              sales@thepospeople.co.nz or 09 444 3903&nbsp;&nbsp;&nbsp;0800 767
+              100&nbsp;&nbsp;&nbsp;0800 POS 100
+            </p>
             <div className={cx(["text-center"], style.logorow)}>
               <div className={cx(["row"])}>
                 <div className="col">
